@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>News Progressive App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Hridayesh">
+  <meta name="description" content="A Progressive Web App made using NewsAPI.org">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#ffffff" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Progressive News App</h1>
+      <h3>Choose from a list of news sources to get the latest popular headlines. Powered by NewsAPI.org!</h3>
+    </div>
+  </header>
+  <main class="display-area">
+    <select id="news-selector"></select>
+    <div class="story-section visible" id="news-list"></div>
+  </main>
+  <div class="footer">
+    <a href="https://github.com/SickeningMyth7">
+    <i class="fa fa-github"></i> / SickeningMyth7
+    </a>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>

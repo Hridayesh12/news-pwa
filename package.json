@@ -1,0 +1,24 @@
+{
+  "name": "progressivenewsapp",
+  "version": "1.0.0",
+  "description": "A Progressive web app powered by NewsAPI.org",
+  "main": "index.html",
+  "dependencies": {
+    "serve": "^11.3.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SickeningMyth7/news-pwa.git"
+  },
+  "keywords": [
+    "pwa",
+    "news"
+  ],
+  "author": "Hridayesh Padalkar <hridayeshpadalkar7@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SickeningMyth7/news-pwa/issues"
+  },
+  "homepage": "https://github.com/SickeningMyth7/news-pwa#readme"
+}
